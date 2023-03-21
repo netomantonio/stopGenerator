@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Stop Generator",
+  "description": "this extension generates words to be filled in in your game according to the letter and answer options",
+  "version": "1.0.0",
+  "permissions": ["activeTab","scripting", "tabs"],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  }
+}

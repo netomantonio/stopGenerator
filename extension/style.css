@@ -1,0 +1,54 @@
+form {
+    background-color: #F8F8F8;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.input, .inputId {
+    width: 128%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #dddd;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(227, 91, 189, 0.89);
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: rgba(114, 46, 98, 0.89)
+}
+
+.icon-copy {
+    color: green;
+}
+
+li.result div {
+    display: flex;
+    flex-direction: row;
+}
+
+li > div:first-child {
+    flex: 1;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 5px;
+}
+.buttonCopy {
+    border: none;
+    padding-left: 15px;
+}
